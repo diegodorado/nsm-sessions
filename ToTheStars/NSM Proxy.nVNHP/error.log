@@ -1,0 +1,16 @@
+
+(calfjackhost:9643): Gtk-WARNING **: 19:07:40.413: Refusing to add non-unique action 'Addeq5Action' to action group 'plugins'
+
+(calfjackhost:9643): Gtk-WARNING **: 19:07:40.413: Refusing to add non-unique action 'Addeq8Action' to action group 'plugins'
+
+(calfjackhost:9643): Gtk-WARNING **: 19:07:40.413: Refusing to add non-unique action 'Addeq12Action' to action group 'plugins'
+
+(calfjackhost:9643): Gtk-WARNING **: 19:07:40.413: Refusing to add non-unique action 'EQ' to action group 'plugins'
+
+(calfjackhost:9643): Gtk-WARNING **: 19:07:40.413: Refusing to add non-unique action 'AddmonoAction' to action group 'plugins'
+Size 2
+Loading limiter
+Loading sidechaincompressor
+LADISH Level 1 support: file '/home/diegodorado/NSM Sessions/Solsken/NSM Proxy.nVNHP/../config.calf' saved
+LADISH Level 1 support: file '/home/diegodorado/NSM Sessions/Solsken/NSM Proxy.nVNHP/../config.calf' saved
+Quit requested through signal 15

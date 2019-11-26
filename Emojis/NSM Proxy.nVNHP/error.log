@@ -1,0 +1,13 @@
+
+(calfjackhost:10828): Gtk-WARNING **: 21:57:13.053: Refusing to add non-unique action 'Addeq5Action' to action group 'plugins'
+
+(calfjackhost:10828): Gtk-WARNING **: 21:57:13.054: Refusing to add non-unique action 'Addeq8Action' to action group 'plugins'
+
+(calfjackhost:10828): Gtk-WARNING **: 21:57:13.054: Refusing to add non-unique action 'Addeq12Action' to action group 'plugins'
+
+(calfjackhost:10828): Gtk-WARNING **: 21:57:13.054: Refusing to add non-unique action 'EQ' to action group 'plugins'
+
+(calfjackhost:10828): Gtk-WARNING **: 21:57:13.054: Refusing to add non-unique action 'AddmonoAction' to action group 'plugins'
+Size 2
+Loading sidechaincompressor
+Loading limiter

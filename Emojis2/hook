@@ -1,0 +1,38 @@
+#!/bin/sh
+
+atom ~/Music/tidal & 
+PID=$!
+echo $PID
+
+handle_exit() {
+  echo -en "\n## Caught SIGTERM; Clean up and Exit \n"
+  trap - TERM
+  trap - INT
+  echo $PID
+  kill $PID
+  exit $?
+}
+
+handle_save() {
+  echo -en "\n## Caught SIGINT; Saving... \n"
+  echo $PID
+}
+
+
+trap handle_save INT
+trap handle_exit TERM
+
+
+while kill -0 $PID > /dev/null 2>&1
+do
+    wait $PID
+done
+
+
+echo Job 1 exited with status $?
+
+
+
+
+
+

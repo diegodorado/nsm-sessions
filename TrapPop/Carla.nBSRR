@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='1.0'>
+ <!-- SQ8L VST -->
+ <Plugin>
+  <Info>
+   <Type>DSSI</Type>
+   <Name>SQ8L VST</Name>
+   <Binary>/usr/lib/dssi/dssi-vst.so</Binary>
+   <Label>SQ8L.dll</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+
+   <CurrentMidiBank>1</CurrentMidiBank>
+   <CurrentMidiProgram>64</CurrentMidiProgram>
+  </Data>
+ </Plugin>
+
+ <!-- ODsay VST -->
+ <Plugin>
+  <Info>
+   <Type>DSSI</Type>
+   <Name>ODsay VST</Name>
+   <Binary>/usr/lib/dssi/dssi-vst.so</Binary>
+   <Label>ODSay.dll</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>A-440 On/Off</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Adsr Attack</Name>
+    <Value>0.166667</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Adsr Decay</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Adsr Key Gate/Repeat Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Adsr Key/Lfo Gate Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Adsr Release</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Adsr Repeat/Auto Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Adsr Sustain</Name>
+    <Value>0.83</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Ar Attack</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Ar Release</Name>
+    <Value>0.47</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Fx Chorus Mix</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Fx Chorus Rate</Name>
+    <Value>0.403877</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Fx Delay 2 Feedback</Name>
+    <Value>0.03</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Fx Delay Mix</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Fx Delay Sync On/Off</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Fx Delay1 Feedback</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Fx Delay1 Rate</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Fx Delay2 Rate</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Hpf Frequency</Name>
+    <Value>0.015</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Level Lag</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Lfo  Key/Lfo Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Lfo  Noise/Vco2 Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Lfo  Vco1 Wave Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Lfo Freq</Name>
+    <Value>0.875</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Lfo Tempo Sync</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Lfo Vco1 Level</Name>
+    <Value>0.09</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Lfo Vco2/Noise Level</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Master Tune</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Mixer Adsr Vol</Name>
+    <Value>0.095</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Mixer Adsr/Ar Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Mixer Ar/Adsr Sw</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Mixer Ar/Adsr Vol</Name>
+    <Value>0.233</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Mixer KeyCV/Sh Sw</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Mixer Kybd/Sh Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Mixer Noise/Ring Sw</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Mixer Noise/Ring Vol</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Mixer Sh/Lfo Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Mixer Sh/Lfo Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Mixer Vco1 Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Mixer Vco1 Wave Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Mixer Vco2 Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Mixer Vco2 Wave Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Modulation</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Mono/Duo</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Noise White/Pink</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Osc 2 Sync On/Off Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Osc1 Keyb On/Off</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Osc1 Lfo Vol</Name>
+    <Value>0.125</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Osc1 Lfo Wave Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Osc1 Lfo/Adsr Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Osc1 Pitch Corse</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Osc1 Pitch Fine</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Osc1 Pulse Mod</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Osc1 Pulse Width</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Osc1 Sh/Adsr Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Osc1 Sh/Adsr Vol</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Osc2 Lfo Inp</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Osc2 Lfo Wave Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Osc2 Lfo/Adsr Sw</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Osc2 Pitch Corse</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Osc2 Pitch Fine</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Osc2 Pulse Mod</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Osc2 Pulse Width</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Osc2 Sh/Adsr Sw</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Osc2 Sh/Adsr Vol</Name>
+    <Value>0.744</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Portamento Time</Name>
+    <Value>0.395</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Retrigger</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Transpose Sw</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>VCA Gain</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>69</Index>
+    <Name>Vcf Frequecy</Name>
+    <Value>0.84</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>70</Index>
+    <Name>Vcf Resonance</Name>
+    <Value>0.405263</Value>
+   </Parameter>
+
+   <CurrentMidiBank>1</CurrentMidiBank>
+   <CurrentMidiProgram>8</CurrentMidiProgram>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Split -->
+ <Plugin>
+  <Info>
+   <Type>Internal</Type>
+   <Name>MIDI Split</Name>
+   <Label>midiSplit</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+  </Data>
+ </Plugin>
+
+ <!-- SQ8L VST -->
+ <Plugin>
+  <Info>
+   <Type>DSSI</Type>
+   <Name>SQ8L VST (2)</Name>
+   <Binary>/usr/lib/dssi/dssi-vst.so</Binary>
+   <Label>SQ8L.dll</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <Volume>0.904</Volume>
+   <ControlChannel>1</ControlChannel>
+
+   <CurrentMidiBank>1</CurrentMidiBank>
+   <CurrentMidiProgram>89</CurrentMidiProgram>
+  </Data>
+ </Plugin>
+
+ <!-- Calf Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Calf Limiter</Name>
+   <URI>http://calf.sourceforge.net/plugins/Limiter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bypass</Name>
+    <Symbol>bypass</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input Gain</Name>
+    <Symbol>level_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output Gain</Name>
+    <Symbol>level_out</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Meter-InL</Name>
+    <Symbol>meter_inL</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Meter-InR</Name>
+    <Symbol>meter_inR</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Meter-OutL</Name>
+    <Symbol>meter_outL</Symbol>
+    <Value>4.58137e-26</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Meter-OutR</Name>
+    <Symbol>meter_outR</Symbol>
+    <Value>4.58137e-26</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>0dB-InL</Name>
+    <Symbol>clip_inL</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>0dB-InR</Name>
+    <Symbol>clip_inR</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>0dB-OutL</Name>
+    <Symbol>clip_outL</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>0dB-OutR</Name>
+    <Symbol>clip_outR</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Limit</Name>
+    <Symbol>limit</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Lookahead</Name>
+    <Symbol>attack</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Release</Name>
+    <Symbol>release</Symbol>
+    <Value>140.86</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Attenuation</Name>
+    <Symbol>att</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>ASC</Name>
+    <Symbol>asc</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>asc active</Name>
+    <Symbol>asc_led</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>ASC Level</Name>
+    <Symbol>asc_coeff</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Oversampling</Name>
+    <Symbol>oversampling</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+</CARLA-PROJECT>

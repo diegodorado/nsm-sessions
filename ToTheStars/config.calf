@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="limiter" instance-name="Limiter" input-index="5" output-index="3">
+<preset bank="0" program="0" plugin="limiter" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1.26226" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0" />
+  <param name="meter_inR" value="0" />
+  <param name="meter_outL" value="5.23351e-26" />
+  <param name="meter_outR" value="5.23351e-26" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="limit" value="0.875392" />
+  <param name="attack" value="8.6036" />
+  <param name="release" value="2.14274" />
+  <param name="att" value="1" />
+  <param name="asc" value="1" />
+  <param name="asc_led" value="0" />
+  <param name="asc_coeff" value="0.48" />
+  <param name="oversampling" value="1" />
+</preset>
+</plugin>
+<plugin type="sidechaincompressor" instance-name="Sidechain Compressor" input-index="7" output-index="5">
+<preset bank="0" program="0" plugin="sidechaincompressor" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="meter_in" value="0" />
+  <param name="meter_out" value="0" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="threshold" value="0.066064" />
+  <param name="ratio" value="3.14591" />
+  <param name="attack" value="0.0517759" />
+  <param name="release" value="0.157079" />
+  <param name="makeup" value="1" />
+  <param name="knee" value="2.82843" />
+  <param name="detection" value="0" />
+  <param name="stereo_link" value="1" />
+  <param name="compression" value="1" />
+  <param name="sc_mode" value="0" />
+  <param name="f1_freq" value="250" />
+  <param name="f2_freq" value="4500" />
+  <param name="f1_level" value="1" />
+  <param name="f2_level" value="1" />
+  <param name="sc_listen" value="0" />
+  <param name="f1_active" value="0" />
+  <param name="f2_active" value="0" />
+  <param name="sc_route" value="1" />
+  <param name="sc_level" value="1" />
+  <param name="mix" value="1" />
+</preset>
+</plugin>
+</rack>

@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="sidechaincompressor" instance-name="Sidechain Compressor" input-index="1" output-index="1">
+<preset bank="0" program="0" plugin="sidechaincompressor" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="meter_in" value="8.79311e-13" />
+  <param name="meter_out" value="8.79311e-13" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="threshold" value="0.125" />
+  <param name="ratio" value="3.61288" />
+  <param name="attack" value="0.0570868" />
+  <param name="release" value="387.951" />
+  <param name="makeup" value="1" />
+  <param name="knee" value="3.02304" />
+  <param name="detection" value="0" />
+  <param name="stereo_link" value="1" />
+  <param name="compression" value="1" />
+  <param name="sc_mode" value="0" />
+  <param name="f1_freq" value="250" />
+  <param name="f2_freq" value="4500" />
+  <param name="f1_level" value="1" />
+  <param name="f2_level" value="1" />
+  <param name="sc_listen" value="0" />
+  <param name="f1_active" value="0" />
+  <param name="f2_active" value="0" />
+  <param name="sc_route" value="1" />
+  <param name="sc_level" value="1" />
+  <param name="mix" value="1" />
+</preset>
+</plugin>
+</rack>

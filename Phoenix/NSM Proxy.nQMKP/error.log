@@ -1,0 +1,4 @@
+--- disable export of hardware ports
+DBus exception: org.gna.home.a2jmidid.error.bridge_running: Bridge is started
+--- start
+DBus exception: org.gna.home.a2jmidid.error.generic: a2j_start() failed.

@@ -1,0 +1,13 @@
+Non-Mixer.nONQY/BDSN:out-1               |> Non-Mixer.nONQY/COMP:in-3
+Non-Mixer.nONQY/BDSN:out-1               |> system:playback_1
+Non-Mixer.nONQY/BDSN:out-2               |> Non-Mixer.nONQY/COMP:in-4
+Non-Mixer.nONQY/BDSN:out-2               |> system:playback_2
+Non-Mixer.nONQY/ZAS:out-1                |> Non-Mixer.nONQY/COMP:in-1
+Non-Mixer.nONQY/ZAS:out-1                |> system:playback_1
+Non-Mixer.nONQY/ZAS:out-2                |> Non-Mixer.nONQY/COMP:in-2
+Non-Mixer.nONQY/ZAS:out-2                |> system:playback_2
+ZynAddSubFX.nOOYL:out_1                  |> Non-Mixer.nONQY/COMP:in-1
+ZynAddSubFX.nOOYL:out_1                  |> Non-Mixer.nONQY/ZAS:in-1
+ZynAddSubFX.nOOYL:out_2                  |> Non-Mixer.nONQY/ZAS:in-2
+a2j:Midi Through [14] (capture): Midi Through Port-0 |> ZynAddSubFX.nOOYL:osc
+a2j:Midi Through [14] (capture): Midi Through Port-0 |> a2j:ZynAddSubFX [128] (playback): ZynAddSubFX

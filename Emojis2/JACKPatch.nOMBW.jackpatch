@@ -1,0 +1,21 @@
+Calf Studio Gear:Limiter Out #1          |> system:playback_1
+Calf Studio Gear:Limiter Out #2          |> system:playback_2
+Calf Studio Gear:Sidechain Compressor Out #1 |> Calf Studio Gear:Limiter In #1
+Calf Studio Gear:Sidechain Compressor Out #2 |> Calf Studio Gear:Limiter In #2
+Non-Mixer.nONQY/BDSN:out-1               |> Calf Studio Gear:Limiter In #1
+Non-Mixer.nONQY/BDSN:out-1               |> Calf Studio Gear:Sidechain Compressor In #3
+Non-Mixer.nONQY/BDSN:out-2               |> Calf Studio Gear:Limiter In #2
+Non-Mixer.nONQY/BDSN:out-2               |> Calf Studio Gear:Sidechain Compressor In #4
+Non-Mixer.nONQY/ODSAY:out-1              |> Calf Studio Gear:Sidechain Compressor In #1
+Non-Mixer.nONQY/ODSAY:out-2              |> Calf Studio Gear:Sidechain Compressor In #2
+Non-Mixer.nONQY/SC-ELSE:out-1            |> Calf Studio Gear:Sidechain Compressor In #1
+Non-Mixer.nONQY/SC-ELSE:out-2            |> Calf Studio Gear:Sidechain Compressor In #2
+Non-Mixer.nONQY/ZAS:out-1                |> Calf Studio Gear:Sidechain Compressor In #1
+Non-Mixer.nONQY/ZAS:out-2                |> Calf Studio Gear:Sidechain Compressor In #2
+SuperCollider:out_1                      |> Non-Mixer.nONQY/SC-ELSE:in-1
+SuperCollider:out_2                      |> Non-Mixer.nONQY/SC-ELSE:in-2
+SuperCollider:out_3                      |> Non-Mixer.nONQY/BDSN:in-1
+SuperCollider:out_4                      |> Non-Mixer.nONQY/BDSN:in-2
+ZynAddSubFX.nOOYL:out_1                  |> Non-Mixer.nONQY/ZAS:in-1
+ZynAddSubFX.nOOYL:out_2                  |> Non-Mixer.nONQY/ZAS:in-2
+a2j:Midi Through [14] (capture): Midi Through Port-0 |> a2j:ZynAddSubFX [129] (playback): ZynAddSubFX

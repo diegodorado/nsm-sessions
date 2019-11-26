@@ -1,0 +1,149 @@
+compiling class library...
+	Found 716 primitives.
+	Compiling directory '/usr/local/share/SuperCollider/SCClassLibrary'
+	Compiling directory '/usr/local/share/SuperCollider/Extensions'
+	Compiling directory '/home/diegodorado/.local/share/SuperCollider/Extensions'
+WARNING: Could not open directory: '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/FoxDotQuark'
+	To resolve this, either create the directory or remove it from your compilation paths.
+
+WARNING: Could not open directory: '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/BatLib'
+	To resolve this, either create the directory or remove it from your compilation paths.
+
+	Compiling directory '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/Vowel'
+	Compiling directory '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/Dirt-Samples'
+WARNING: Could not open directory: '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/Esp'
+	To resolve this, either create the directory or remove it from your compilation paths.
+
+WARNING: Could not open directory: '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/ListeningClocks'
+	To resolve this, either create the directory or remove it from your compilation paths.
+
+	Compiling directory '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/BenoitLib'
+WARNING: Could not open directory: '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/apex-sc-dafx'
+	To resolve this, either create the directory or remove it from your compilation paths.
+
+	Compiling directory '/home/diegodorado/.local/share/SuperCollider/downloaded-quarks/SuperDirt'
+	numentries = 1123753 / 13522138 = 0.083
+	4451 method selectors, 3038 classes
+	method table size 17022240 bytes, big table size 108177104
+	Number of Symbols 12380
+	Byte Code Size 355111
+	compiled 483 files in 0.21 seconds
+
+Info: 5 methods are currently overwritten by extensions. To see which, execute:
+MethodOverride.printAll
+
+compile done
+localhost : setting clientID to 0.
+internal : setting clientID to 0.
+Class tree inited in 0.02 seconds
+Open ended comment started on line 1 of interpreted text
+
+
+*** Welcome to SuperCollider 3.10.2. *** For help type ctrl-c ctrl-h (Emacs) or :SChelp (vim) or ctrl-U (sced/gedit).
+Booting server 'localhost' on address 127.0.0.1:57110.
+RemoteVSTClient: all cache files are up-to-date, not running scanner
+Found 11 LADSPA plugins
+Faust: supercollider.cpp: sc_api_version = 3
+Faust: FaustJPverbRaw numControls=11
+Faust: supercollider.cpp: sc_api_version = 3
+Faust: FaustGreyholeRaw numControls=7
+JackDriver: client name is 'SuperCollider'
+SC_AudioDriver: sample rate = 48000.000000, driver's block size = 1024
+SuperCollider 3 server ready.
+JackDriver: max output latency 21.3 ms
+Requested notification messages from server 'localhost'
+localhost: server process's maxLogins (4) matches with my options.
+localhost: keeping clientID (0) as confirmed by server process.
+Shared memory server interface initialized
+loading synthdefs in /home/diegodorado/.local/share/SuperCollider/downloaded-quarks/SuperDirt/classes/../synths/core-modules.scd
+---- core synth defs loaded ----
+loading synthdefs in /home/diegodorado/.local/share/SuperCollider/downloaded-quarks/SuperDirt/classes/../synths/core-synths-global.scd
+loading synthdefs in /home/diegodorado/.local/share/SuperCollider/downloaded-quarks/SuperDirt/classes/../synths/core-synths.scd
+loading synthdefs in /home/diegodorado/.local/share/SuperCollider/downloaded-quarks/SuperDirt/classes/../synths/default-synths.scd
+loading synthdefs in /home/diegodorado/.local/share/SuperCollider/downloaded-quarks/SuperDirt/classes/../synths/try-load-extra-synths.scd
+loading synthdefs in /home/diegodorado/.local/share/SuperCollider/downloaded-quarks/SuperDirt/classes/../synths/tutorial-synths.scd
+
+loading 215 sample banks:
+808 (6) 808bd (25) 808cy (25) 808hc (5) 808ht (5) 808lc (5) 808lt (5) 808mc (5) 808mt (5) 808oh (5) 808sd (25) 909 (1) ab (12) ade (10) ades2 (9) ades3 (7) ades4 (6) alex (2) alphabet (26) amencutup (32) armora (7) arp (2) arpy (11) auto (11) baa (7) baa2 (7) bass (4) bass0 (3) bass1 (30) bass2 (5) bass3 (11) bassdm (24) bassfoo (3) battles (2) bd (24) bend (4) bev (2) bin (2) birds (10) birds3 (19) bleep (13) blip (2) blue (2) bottle (13) breaks125 (2) breaks152 (1) breaks157 (1) breaks165 (1) breath (1) bubble (8) can (14) casio (3) cb (1) cc (6) chin (4) chink (1) circus (3) clak (2) click (4) clubkick (5) co (4) control (2) cosmicg (15) cp (2) cr (6) crow (4) d (4) db (13) diphone (38) diphone2 (12) dist (16) dork2 (4) dorkbot (2) dr (42) dr2 (6) dr55 (4) dr_few (8) drum (6) drumtraks (13) e (8) east (9) electro1 (13) erk (1) f (1) feel (7) feelfx (8) fest (1) fire (1) flick (17) fm (17) foo (27) future (17) gab (10) gabba (4) gabbaloud (4) gabbalouder (4) glasstap (3) glitch (8) glitch2 (8) gretsch (24) h (7) hand (17) hardcore (12) hardkick (6) haw (6) hc (6) hh (13) hh27 (13) hit (6) hmm (1) ho (6) hoover (6) house (8) ht (16) if (5) ifdrums (3) incoming (8) industrial (32) insect (3) invaders (18) jazz (8) jungbass (20) jungle (13) jvbass (13) kicklinn (1) koy (2) kurt (7) latibro (8) led (1) less (4) lighter (33) linnhats (6) lt (16) made (7) made2 (1) mash (2) mash2 (4) metal (10) miniyeah (4) moan (1) monsterb (6) moog (7) mouth (15) mp3 (4) msg (9) mt (16) mute (28) newnotes (15) noise (1) noise2 (8) notes (15) numbers (9) oc (4) odx (15) off (1) outdoor (6) pad (3) padlong (1) pebbles (1) perc (6) peri (15) pluck (17) popkick (10) print (11) proc (2) procshort (8) psr (30) rave (8) rave2 (4) ravemono (2) realclaps (4) reverbkick (1) rm (2) rs (1) sax (22) sd (2) seawolf (3) sequential (8) sf (18) sheffield (1) short (5) sid (12) sine (6) sitar (8) sn (52) space (18) speakspell (12) speech (7) speechless (10) speedupdown (9) stab (23) stomp (10) subroc3d (11) sugar (2) sundance (6) tabla (26) tabla2 (46) tablex (3) tacscan (22) tech (13) techno (7) tink (5) tok (4) toys (13) trump (11) ul (10) ulgab (5) uxay (3) v (6) voodoo (5) wind (10) wobble (1) world (3) xmas (1) yeah (31) 
+... file reading complete. Required 432 MB of memory.
+
+
+loading 3 sample banks:
+cello (4) tromb (2) tuvan (2) 
+... file reading complete. Required 30 MB of memory.
+
+
+loading 21 sample banks:
+acf (6) chant (9) drums (1) gtr1 (4) gtr2 (2) gtr3 (1) gtr4 (5) gtr5 (4) gtr6 (10) nipon (33) pacino (4) 
+replacing 'pad' (3)
+pad (3) pappo (2) pingpong (6) porn (9) porn2 (9) porn3 (11) rosalia (4) swbd (2) swsn (4) whatsapp (4) 
+... file reading complete. Required 913 MB of memory.
+
+
+loading 19 sample banks:
+
+replacing '808' (6)
+808 (6) alarm (5) 
+replacing 'bd' (24)
+bd (84) 
+replacing 'cp' (2)
+cp (85) crash (46) down (5) drone (4) fx (9) 
+replacing 'hh' (13)
+hh (79) impact (20) laser (4) 
+replacing 'noise' (1)
+noise (7) oh (43) 
+replacing 'perc' (6)
+perc (121) ride (31) riser (19) 
+replacing 'sn' (52)
+sn (108) synth (33) vocal (3) 
+... file reading complete. Required 344 MB of memory.
+
+SuperDirt: listening to Tidal on port 57120
+a NetAddr(127.0.0.1, 3333)
+MIDI Sources:
+	MIDIEndPoint("System", "Timer")
+	MIDIEndPoint("System", "Announce")
+	MIDIEndPoint("Midi Through", "Midi Through Port-0")
+	MIDIEndPoint("SuperCollider", "out0")
+	MIDIEndPoint("SuperCollider", "out1")
+MIDI Destinations:
+	MIDIEndPoint("Midi Through", "Midi Through Port-0")
+	MIDIEndPoint("ZynAddSubFX", "ZynAddSubFX")
+	MIDIEndPoint("SuperCollider", "in0")
+	MIDIEndPoint("SuperCollider", "in1")
+	MIDIEndPoint("SuperCollider", "in2")
+Loading synths.
+---------------
+no synth or sample named 'nil' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named 'nil' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+no synth or sample named '3' could be found.
+module 'sound': instrument not found: nil
+JackDriver: max output latency 0.0 ms
+Server is not running
+Server is not running

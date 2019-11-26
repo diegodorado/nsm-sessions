@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="limiter" instance-name="Limiter" input-index="5" output-index="3">
+<preset bank="0" program="0" plugin="limiter" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1.14235" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="3.4978e-26" />
+  <param name="meter_inR" value="3.4978e-26" />
+  <param name="meter_outL" value="7.6305e-26" />
+  <param name="meter_outR" value="7.6305e-26" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="limit" value="0.600402" />
+  <param name="attack" value="7.4156" />
+  <param name="release" value="8.29793" />
+  <param name="att" value="1" />
+  <param name="asc" value="1" />
+  <param name="asc_led" value="0" />
+  <param name="asc_coeff" value="0.5" />
+  <param name="oversampling" value="1" />
+</preset>
+</plugin>
+</rack>
